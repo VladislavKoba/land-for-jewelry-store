@@ -1,0 +1,665 @@
+@media only screen and (max-width: 1025px) {
+	body {
+		min-width: initial;
+	}
+	.container {
+		padding: 0;
+		width: 748px;
+	}
+.mobile-menu {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding-top: 0;
+    position: relative;
+    height: 35px;
+    width: 35px;
+}
+.mobile-menu:before {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    content: '';
+    background: #000;
+    box-shadow: 0 8px 0 #000, 0 17px 0 #000;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 8px;
+}
+.menu_top {
+    display: none;
+    position: fixed;
+    background: #dcdcdc;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 9;
+    top: 75px;
+    padding: 10px 0;
+}
+.menu_top ul li {
+    float: none;
+    margin: 0;
+    text-align: center;
+}
+.menu_top ul li a {
+    margin: 0 auto;
+}
+.menu_container {
+    padding-top: 20px;
+}
+.flickerplate {
+    width: 300px;
+    height: 300px;
+}
+.flickerplate:before {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+	top: 0px;
+}
+.flickerplate ul.flicks>li {
+    background-size: cover;
+}
+.header_box_left h1 {
+    font-size: 36px;
+}
+.header_box_left p {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.header_btn {
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+}
+.header_box_left {
+    padding-top: 0;
+}
+.header_box_right p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    padding-right: 55px;
+}
+.header_box_right {
+    width: 250px;
+    padding-top: 45px;
+}
+header {
+    padding-top: 135px;
+    height: initial;
+    padding-bottom: 60px;
+}
+#preim {
+    padding-top: 45px;
+    padding-bottom: 0;
+}
+.preim_box_left h3 {
+    font-size: 18px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+.preim_box_left p {
+    font-size: 16px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+.preim_box_right p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.preim_box_right p br {
+    display: none;
+}
+.preim_box_right {
+    height: 325px;
+    padding-left: 35px;
+    width: 360px;
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+#gallery .container > p {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.zahvat_container p {
+    width: 385px;
+    padding-left: 0;
+    font-size: 16px;
+}
+.zahvat_container p br {
+    display: none;
+}
+#zahvat {
+    height: initial;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.nikogda_box_text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.nikogda_box_text h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.nikogda_box_text p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.nikogda_box_text ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.nikogda_box_text {
+    width: 430px;
+    padding-top: 45px;
+}
+.nikogda_box_img img {
+    width: 100%;
+}
+.nikogda_box_img {
+    right: -545px;
+    width: 400px;
+}
+.nikogda_box_min:before {
+    width: 8px;
+    height: 338px;
+    left: -8px;
+    top: 0;
+}
+#nikogda {
+    padding-bottom: 30px;
+}
+#contact_form button[type="submit"] {
+    font-size: 16px;
+    line-height: 5.5vw;
+}
+#history .container > p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.history_box {
+    width: 179px;
+    margin-right: 10px;
+}
+.history_box_img {
+    margin-bottom: 25px;
+}
+.history_box p {
+    font-size: 14px;
+}
+#history {
+    padding-top: 35px;
+    padding-bottom: 0;
+}
+.podarok_box_text h3 {
+    font-size: 30px;
+}
+.podarok_box_text p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.podarok_box_text ul li {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.podarok_box_text {
+    width: 400px;
+}
+.podarok_btn {
+    width: 300px;
+    height: 70px;
+    font-size: 18px;
+    padding-top: 13px;
+    margin-top: 25px;
+}
+.podarok_box_img img {
+    width: 100%;
+}
+.podarok_box_img {
+    margin-left: -155px;
+    width: 500px;
+}
+#podarok {
+    padding-bottom: 45px;
+}
+.pod_box_text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.pod_box_text p {
+    font-size: 16px;
+}
+.pod_box_forma h3 {
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.pod_box_forma {
+    width: 350px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    margin-right: 0;
+}
+#pod {
+    padding-top: 60px;
+    padding-bottom: 45px;
+    height: initial;
+}
+.pod_box_text p br {
+    display: none;
+}
+.pod_box_text {
+    width: 365px;
+    padding-top: 85px;
+}
+#map {
+    height: 350px;
+    width: 100%;
+    position: relative !important;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.contact_container h2 {
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.contact_container p {
+    font-size: 21px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact_container ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#contact {
+    height: initial;
+}
+.footer_container > a {
+    font-size: 16px;
+    margin: 0 10px;
+}
+.logo_footer {
+    margin-top: 25px;
+}
+footer {
+    height: initial;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.preim_box_left {
+    width: 350px;
+}
+
+#header {
+    min-height: 500px;
+}
+	
+
+}
+
+@media only screen and (max-width: 769px) {
+.container {
+	width: 480px;
+}
+header {
+    padding-top: 85px;
+    padding-bottom: 35px;
+}
+.header_container {
+    position: relative;
+    padding-top: 15px;
+}
+.header_box_left h1 br {
+    display: none;
+}
+.header_box_left h1 {
+    font-size: 26px;
+    text-align: center;
+}
+.header_box_left p br {
+    display: none;
+}
+.header_box_left p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.header_btn {
+    margin: 0 auto;
+}
+.header_box_left {
+    float: none;
+}
+.header_box_right {
+    width: 100%;
+    padding-top: 35px;
+    float: none;
+}
+.header_box_right p:before {
+    right: 0;
+    top: 2px;
+}
+.header_box_right p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    padding-right: 40px;
+}
+.header_box_right p br {
+    display: none;
+}
+.preim_box_left {
+    width: 100%;
+    float: none;
+}
+.preim_box_right {
+    height: initial;
+    margin-left: 0;
+    float: none;
+    width: 100%;
+    padding-bottom: 20px;
+	margin-top: 30px;
+}
+#gallery .container > p {
+    font-size: 26px;
+}
+.zahvat_container p {
+    width: 100%;
+    float: none;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.zahvat_btn {
+    float: none;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+#zahvat {
+    padding-top: 25px;
+    padding-bottom: 10px;
+	background: #65464c;
+}
+.nikogda_box_text h2 {
+    font-size: 26px;
+    text-align: center;
+}
+.nikogda_box_text h3 {
+    text-align: center;
+}
+.nikogda_box_text p {
+    text-align: center;
+}
+.nikogda_box_text {
+    width: 100%;
+    padding-top: 35px;
+    float: none;
+    padding-bottom: 15px;
+}
+#style:before {
+    display: none;
+}
+.nikogda_box_min:before {
+    display: none;
+}
+.nikogda_box_img {
+    right: 0;
+    width: 100%;
+    position: relative;
+}
+.style_box:first-child p {
+    padding: 0;
+    font-size: 24px;
+}
+.style_box:first-child {
+    float: none;
+    width: 100%;
+    text-align: center;
+    height: initial;
+    padding-bottom: 25px;
+}
+.style_box:nth-child(4) {
+    margin-left: 0;
+}
+.style_box:last-child {
+    width: 100%;
+    height: initial;
+    float: none;
+    clear: both;
+    overflow: hidden;
+}
+.style_box h3 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#contact_form input[type="text"] {
+    width: 320px;
+    height: 60px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#contact_form button[type="submit"] {
+    font-size: 18px;
+    line-height: 70px;
+    height: 70px;
+    width: 320px;
+}
+#history .container > p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.history_box {
+    width: 230px;
+    margin-right: 0;
+    margin: 0 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.history_box:last-child {
+    margin-right: 5px;
+}
+#podarok {
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+.podarok_box_text h3 {
+    font-size: 26px;
+    text-align: center;
+}
+.podarok_box_text p {
+    font-size: 14px;
+    text-align: center;
+}
+.podarok_box_text ul li {
+    font-size: 14px;
+}
+.podarok_box_text {
+    width: 100%;
+    float: none;
+}
+.podarok_btn {
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.podarok_box_img {
+    margin-left: 25px;
+    width: 350px;
+    float: none;
+    padding-top: 30px;
+}
+.pod_box_text h3 {
+    font-size: 26px;
+    text-align: center;
+}
+.pod_box_text p {
+    font-size: 14px;
+    text-align: center;
+}
+.pod_box_text {
+    width: 100%;
+    padding-top: 0;
+    float: none;
+    padding-bottom: 15px;
+}
+.pod_box_forma {
+    float: none;
+    margin: 0 auto;
+}
+.footer_container > a {
+    font-size: 16px;
+    margin: 5px 0;
+    display: block;
+}
+.logo_footer {
+    margin-top: 15px;
+}
+.logo_container img {
+    width: 45px;
+}
+.logo_container {
+    padding-top: 7px;
+}
+.menu_container {
+    padding-top: 12px;
+}
+.top_container {
+    height: 60px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.3);
+}
+.menu_top {
+    top: 60px;
+}
+.contact_container h2 {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-size: 26px;
+}
+.contact_container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.contact_container ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.contact_container ul {
+    padding-bottom: 15px;
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+.container {
+	width: 300px;
+}
+.nikogda_box_text h2 br {
+    display: none;
+}
+.nikogda_box_text h2 {
+    font-size: 22px;
+}
+.nikogda_box_text h3 br {
+    display: none;
+}
+.style_box {
+    width: 50%;
+    height: 50vw;
+}
+.style_box_min p {
+    font-size: 4.6vw;
+    padding-top: 22vw;
+}
+#contact_form input[type="text"] {
+    width: 300px;
+}
+#contact_form button[type="submit"] {
+    width: 300px;
+}
+#history .container > p br {
+    display: none;
+}
+#history .container > p {
+    font-size: 20px;
+}
+.history_box {
+    width: 100%;
+    margin-right: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    float: none;
+}
+.history_box_img {
+    margin-bottom: 10px;
+}
+.podarok_box_text h3 {
+    font-size: 22px;
+}
+.podarok_box_text p br {
+    display: none;
+}
+.podarok_btn {
+    width: 280px;
+}
+.podarok_box_img {
+    margin-left: -20px;
+    width: 300px;
+}
+.pod_box_text h3 {
+    font-size: 22px;
+}
+.pod_box_forma {
+    width: 100%;
+    padding: 0 10px;
+	padding-top: 35px;
+    padding-bottom: 45px;
+}
+#contact_form2 input[type="text"] {
+    width: 100%;
+}
+#contact_form2 button[type="submit"] {
+    font-size: 18px;
+    width: 100%;
+}
+#pod {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.forma_popap h3 {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.forma_popap {
+    padding: 0;
+    padding-bottom: 25px;
+}
+.reveal-modal {
+    max-width: 300px !important;
+}
+
+
+
+
+}

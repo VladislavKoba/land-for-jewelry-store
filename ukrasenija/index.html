@@ -1,0 +1,512 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Украинские украшения с историей</title>
+	<meta charset=utf-8>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="./css/style.css">
+	<link href="./css/flickerplate.css" rel="stylesheet" />
+	<link href="./css/lightbox.css" rel="stylesheet" />
+	<link href="./css/reveal.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/fadc8b779c.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+ 
+        var $menu = $("#menu");
+ 
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > screen.height && $menu.hasClass("default") ){
+                $menu.removeClass("default").addClass("fixed");
+            } else if($(this).scrollTop() <= screen.height && $menu.hasClass("fixed")) {
+                $menu.removeClass("fixed").addClass("default");
+            }
+        });//scroll
+    });
+</script>
+
+<!--<div id="menu" class="default">
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Joolma</a></li>
+            <li><a href="#">WordPress</a></li>
+            <li><a href="#">HTML5&amp;CSS3</a></li>
+            <li><a href="#">PHP</a></li>
+        </ul>
+</div>-->
+<div id="menu"   class="default">
+	
+	<div class="container">
+		<!--<div class="logo_container">
+			<a href=""><img src="./images/logo.png" alt="" /></a>
+		</div>-->
+		<div class="menu_container">
+			<a id="touch-menu" class="mobile-menu" href="#">
+					
+			</a>
+			<nav class="menu_top">
+				<ul>
+					<li><a href="#style">Подобрать украшение</a></li>
+					<li><a href="#podarok">Подарочные сертификаты</a></li>
+					<li><a href="#history">История в украшениях</a></li>
+					<li><a href="#" data-reveal-id="zakaz" class="head_btn" onclick="scrolloff()">Оставить заявку</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+	
+<header>
+	<div class="container">
+
+		<!--<div class="slider_container">
+			<div class="flicker-example" data-block-text="false">
+				<ul>
+					<li data-background="./images/slid1.png">
+					</li>
+					<li data-background="./images/slid2.jpg">
+					</li>
+					<li data-background="./images/slid3.jpg">
+					</li>
+					<li data-background="./images/slid4.jpg">
+					</li>
+					<li data-background="./images/slid5.jpg">
+					</li>
+					<li data-background="./images/slid6.jpg">
+					</li>
+				</ul>
+			</div>
+		</div>-->
+		<div class="header_container" >
+			<div class="header_box_left">
+				<h1>Украинские <br>украшения <br>с историей</h1>
+				<p>Оставьте свой телефон иполучите <br><span>бесплатную</span> консультацию стилиста <br>по подбору украшения</p>
+				<a href="#" data-reveal-id="zakaz" class="header_btn" onclick="scrolloff()">Оставить заявку</a>
+			</div>
+			<div class="header_box_right">
+				<p>Индивидуальный подбор украшений под Ваш стиль одежды</p>
+				<p>Сочетание старинных мотивов и удобства, которое нужно современной женщине</p>
+				<p>Отправляем <br>украшение в день <br>заказа</p>
+			</div>
+		</div>
+	</div>
+</header>
+	
+<section id="preim">
+	<div class="container">
+		<div class="preim_container">
+			<div class="preim_box_top">
+				<h1><span>Хочется что-то оригинальное</span>, не как у всех…</h1>
+				<h3> но в то же время удобное и современное. Что предложите?</h2>
+			</div>
+			<div class="preim_box_left">
+				<div class="preim1_3">
+					<h3 class="preim_left">Более 10 типов материалов</h3>
+					<p>Керамика, коралл, перламутр, аквамарин, цитрин, стекло в сочетании с бронзой, латунью, мельхиором и серебром - только качественные составляющие без недолговечных напылений и покрытий</p>
+				</div>
+				<div id="preim2">
+					<h3>Воссоздаем</h3>
+					<p>Точные реплики  старинных  украинских украшений,  XIX - начала 20 вв.</p>
+				</div>
+			</div>
+			<div class="preim_box_right">
+				<div class="preim1_3">
+					<h3>Каждое</h3>
+					<p>Украшение на 100% уникальное, оно состоит из бусин ручной работы, которые могут отличаться по цвету, размеру, дизайну подвески</p>
+				</div>
+				<div id="preim4">
+					<h3>Можем изготовить</h3>
+					<p>Украшение любой сложности<br> по Вашему эскизу </p>
+				</div>
+			</div>
+			<!--<div class="preim_box_right">
+				<p>Выбираю себе украшение.</p>
+				<p>Стандартные кулоны, бусы, <br>сережки уже надоели.</p>
+				<p><span>Хочется что-то оригинальное</span>, не как <br>у всех… но в то же время удобное <br>и современное. Что предложите?</p>
+				<p>Наши украшения сочетают в себе качество <span>натуральных материалов, символику и стилистику старинных украинских украшений</span>.</p>
+			</div>-->
+		</div>
+		<div style="clear: both"></div>
+	</div>
+</section>
+
+<section id="gallery">
+	<div class="container">
+		<p>Вот как выглядят наши изделия</p>
+	</div>
+		<div class="gallery_container" onclick="scrolloff()">
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal1.jpg" data-lightbox="example-set">
+				<img src="./images/gal1.jpg" id="gallery_img1" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal2.jpg" data-lightbox="example-set">
+				<img src="./images/gal2.jpg" id="gallery_img2" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal3.jpg" data-lightbox="example-set">
+				<img src="./images/gal3.jpg" id="gallery_img3" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal4.jpg" data-lightbox="example-set">
+				<img src="./images/gal4.jpg" id="gallery_img4" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal5.jpg" data-lightbox="example-set">
+				<img src="./images/gal5.jpg" id="gallery_img5" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal6.jpg" data-lightbox="example-set">
+				<img src="./images/gal6.jpg" id="gallery_img6" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<!--<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal_big7.jpg" data-lightbox="example-set"><img src="./images/gal7.jpg" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal_big8.jpg" data-lightbox="example-set"><img src="./images/gal8.jpg" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>
+			<div class="gallery_box">
+				<a class="example-image-link" href="./images/gal_big9.jpg" data-lightbox="example-set"><img src="./images/gal9.jpg" alt="" />
+				<div class="gallery_box_min">
+				</div>
+				</a>
+			</div>-->
+		</div>
+</section>
+
+<section id="zahvat">
+	<div class="container">
+		<div class="zahvat_container">
+			<p>Больше наших украшений можно посмотреть в PDF каталоге <br>Скачайте каталог, в один клик, нажав на кнопку ниже</p>
+			<a href="#" data-reveal-id="zakaz" class="zahvat_btn" onclick="scrolloff()">Получить каталог</a>
+		</div>
+	</div>
+</section>
+
+<section id="nikogda">
+	<div class="container">
+		<div class="nikogda_container">
+			<div class="nikogda_box_text">
+				<h2>Никогда не заказывали украшения в Интернете?</h2>
+				<!--<p>Или просто переживаете «а вдруг не подойдет…», «на картинке одно,<br> а привезут другое…»?</p>
+				<p>Это опасения совершенно естественны.</p>
+				<p style="font-size:25px"><b>Не стоит переживать, потому что Вы в любом случае останетесь довольны:</b></p>-->
+				<ul>
+					<li>Перед заказом, Вас бесплатно проконсультирует наш стилист и поможет выбрать украшение под Ваш стиль одежды</li>
+					<li>Если вам не подойдет длина (бусы будут слишком короткими/длинными вы сможете отправить их нам мы внесем все необходимые корректировки и отправим вам их обратно) - такая индивидуальная “посадка” включена в цену и вам не нужно будет оплачивать ее дополнительно</li>
+					<li>Если Вы получите украшение и Вас что-то не устроит, в течение 14 дней Вы можете отправить его обратно и получить деньги назад</li>
+				</ul>
+			</div>
+			<!--<div class="nikogda_box_img">
+				<div class="nikogda_box_min">
+					<img src="./images/inter_bg.jpg" alt="" />
+				</div>
+			</div>-->
+		</div>
+	</div>
+</section>
+
+<section id="style">
+	<div class="style_container">
+		<div class="style_box">
+			<p>К каким стилям одежды подходят наши украшения</p>
+		</div>
+		<div class="style_box">
+			<img src="./images/styl1.jpg" alt="" />
+			<div class="style_box_min">
+				<p>Smart casual </p>
+			</div>
+		</div>
+		<div class="style_box">
+			<img src="./images/styl2.jpg" alt="" />
+			<div class="style_box_min">
+				<p>Business</p>
+			</div>
+		</div>
+		<div class="style_box">
+			<img src="./images/styl7.jpg" alt="" />
+			<div class="style_box_min">
+				<p>Ethnic</p>
+			</div>
+		</div>
+		<div class="style_box">
+			<img src="./images/styl3.jpg" alt="" />
+			<div class="style_box_min">
+				<p>Boho</p>
+			</div>
+		</div>
+		<div class="style_box">
+			<img src="./images/styl4.jpg" alt="" />
+			<div class="style_box_min">
+				<p>Mori</p>
+			</div>
+		</div>
+		<div class="style_box">
+			<img src="./images/styl5.jpg" alt="" />
+			<div class="style_box_min">
+				<p>Romantic</p>
+			</div>
+		</div>
+		<div class="style_box">
+			<img src="./images/styl6.jpg" alt="" />
+			<div class="style_box_min">
+				<p>Grange</p>
+			</div>
+		</div>
+		<div class="style_box">
+			<h3><span>Оставьте заявку</span> на сайте <br>и получите бесплатную <br>консультацию стилиста</h3>
+			<form action="mail.php" method="post" id="contact_form">
+				<input type="hidden" name="project_name" value="Украинские украшения с историей">
+				<input type="hidden" name="admin_email" value="mail@gmail.com">
+				<input type="hidden" name="form_subject" value="Заявка з сайта Украинские украшения с историей">	
+				<input type="text" value="" required placeholder="Ваше имя" size="20" name="name" id="FullName">
+				<input type="text" required class="telephone_m" value="" placeholder="Ваш телефон" size="20" name="phone" id="Telephone">
+				<button type="submit">Оставить заявку</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+<section id="history">
+	<div class="container">
+		<p>Каждое украшение имеет свою <br>историю и обладает особой энергетикой</p>
+		<div class="history_container">
+			<div class="history_box">
+				<div class="history_box_img history_box_img1"></div>
+				<p>Наши украшения идеально подходят девушкам славянского типа внешности</p>
+			</div>
+			<div class="history_box">
+				<div class="history_box_img history_box_img2"></div>
+				<p>Вы гарантированно будете приковывать повышенное внимание к себе, ведь каждое украшение - уникально</p>
+			</div>
+			<div class="history_box">
+				<div class="history_box_img history_box_img3"></div>
+				<p>Точно такие изделия носили украинские женщины в XIX веке. Мы сделали их ребрендинг так, чтобы Вы выглядели потрясающе как в вечернем платье, так и в повседневной одежде</p>
+			</div>
+			<div class="history_box">
+				<div class="history_box_img history_box_img4"></div>
+				<p>Этнические бусы и серьги - идеальный выбор для тех, кому надоели безликие украшения. Кто хочет выделяться, но в то же время выглядеть современно и элегантно</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="podarok">
+	<div class="container">
+		<div class="podarok_container">
+			<div class="podarok_box_text">
+				<h3>Выбираете <br>украшение в подарок?</h3>
+				<p>Мы позаботимся о том, чтобы Ваш подарок <br>запомнился на всю жизнь</p>
+				<ul>
+					<li>Вы можете выбрать украшение и заказать его доставку по любому адресу по Украине. Мы также упакуем его в красивую подарочную упаковку и вложим открытку</li>
+					<li>Если переживаете, чтобы украшение точно понравилось, можно приобрести подарочный сертификат нашей мастерской на 700, 1500 и 3000 грн. Тогда Ваша  подруга или мама с сестрой сама выберет то, что ей нравится</li>
+					<a href="#" data-reveal-id="zakaz" class="podarok_btn" onclick="scrolloff()">Сделать оригинальный и <br>запоминающийся подарок</a>
+				</ul>
+			</div>
+			<!--<div class="podarok_box_img">
+				<img src="./images/podarok.png" alt="" />
+			</div>-->
+		</div>
+	</div>
+</section>
+
+<section id="pod">
+	<div class="container">
+		<div class="pod_container">
+			<div class="pod_box_text">
+				<h3>Мы также делаем <br>украшения «под заказ»</h3>
+				<p>Из Ваших материалов, по Вашим эскизам и т.д. <br>Или просто опишите, чего бы Вам хотелось и <br>мы воплотим Вашу фантазию в реальность!</p>
+			</div>
+			<div class="pod_box_forma">
+				<h3><span>Оставьте заявку</span> на сайте <br>и получите бесплатную <br>консультацию стилиста</h3>
+				<form action="mail.php" method="post" id="contact_form2">
+					<input type="hidden" name="project_name" value="Украинские украшения с историей">
+					<input type="hidden" name="admin_email" value="mail@gmail.com">
+					<input type="hidden" name="form_subject" value="Заявка з сайта Украинские украшения с историей">	
+					<input type="text" value="" required placeholder="Ваше имя" size="20" name="name" id="FullName2">
+					<input type="text" required class="telephone_m" value="" placeholder="Ваш телефон" size="20" name="phone" id="Telephone2">
+					<button type="submit">Заказать украшение</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="contact">
+	<div class="container">
+		<div class="contact_container">
+			<h2>Контакты</h2>
+			<p>+38 067 463 01 39</p>
+			<ul>
+				<li><span>Facebook:</span><a href="https://www.facebook.com/Etnicas.Jewelry/" target="_blank"> facebook.com/Etnicas.Jewelry/</a></li>
+				<li><span>Instagram:</span><a href="https://www.instagram.com/etnicas_jewelry/" target="_blank"> instagram.com/etnicas_jewelry</a></li>
+				<li><span>Pinterest:</span><a href="https://www.pinterest.com/etnicas/" target="_blank" > pinterest.com/etnicas</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="map"></div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="footer_container">
+			<div class="footer_about">
+				Etnicas – магазин уникальных украшений. Ведь если женщина хочет быть красивой, она выбирает украшения, если неповторимой – выбирает этнические украшения. Мы находимся в постоянном творческом поиске, чтобы предложить вам интересные, неповторимые украшения.
+			</div>
+			<div class="logo_footer">
+				<a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true" ></i></a>
+			</div>
+			<div class="footer_contact">
+				вулиця Хрещатик, 46Б, Київ, 02000<br>
+				+38 067 463 01 39
+			</div>
+		</div>
+		
+	</div>
+</footer>
+
+<div id="zakaz" class="reveal-modal" >
+<div>
+<div class="forma_popap" onclick="scrolloff()">
+	<h3><span>Оставьте заявку</span> на сайте <br>и получите бесплатную <br>консультацию стилиста</h3>
+	<form action="mail.php" method="post" id="contact_form3">
+		<input type="hidden" name="project_name" value="Украинские украшения с историей">
+		<input type="hidden" name="admin_email" value="mail@gmail.com">
+		<input type="hidden" name="form_subject" value="Заявка з сайта Украинские украшения с историей">	
+		<input type="text" value="" required placeholder="Ваше имя" size="20" name="name" id="FullName3">
+		<input type="text" required class="telephone_m" value="" placeholder="Ваш телефон" size="20" name="phone" id="Telephone3">
+		<button type="submit" >Оставить заявку</button>
+	</form>
+</div>
+</div>
+	<a class="close-reveal-modal" onclick="scrollon()">×</a>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="./js/jquery.reveal.js"></script>
+
+<script type="text/javascript">
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+	zoom: 11,
+    center: {lat: 50.462697, lng: 30.462409},
+	zoomControl: true,
+  scaleControl: false,
+  scrollwheel: false,
+  disableDoubleClickZoom: false,
+	styles: []
+  });
+
+  var image = './images/mark.png';
+  var beachMarker = new google.maps.Marker({
+    position: {lat: 50.462697, lng: 30.462409},
+    map: map,
+    icon: image
+  });
+}
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi1yHVN5tNh317Glx9LpGEpk_WyYZw7bM&callback=initMap">
+    </script>
+
+
+<script src="./js/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+<script src="./js/hammer-v2.0.3.min.js" type="text/javascript"></script>
+<script src="./js/flickerplate.min.js" type="text/javascript"></script>
+<script>
+         $(function(){
+            $('.flicker-example').flickerplate({
+               auto_flick        : true,
+               auto_flick_delay  : 5,
+               flick_animation   : 'transform-slide'
+            });
+         });
+</script>
+
+<script src="./js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'showImageNumberLabel': false
+    })
+	
+$('.menu_top a[href^="#"]').click(function(){
+var target = $(this).attr('href');
+  $('html, body').animate({scrollTop: $(target).offset().top-55}, 800);
+  return false;
+});
+
+jQuery(document).ready(function(){
+ 
+    var touch = jQuery('#touch-menu');
+    var menu = jQuery('.menu_top');
+ 
+    jQuery(touch).click(function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+    jQuery(window).resize(function(){
+        var w = jQuery(window).width();
+        if(w > 1024 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+ 
+});
+
+$(".menu_top ul li > a").click(function(){
+if ($(window).width() < 1024) {
+  $(".menu_top").hide();
+        return false;
+	}
+});
+</script>
+
+<script type="text/javascript">
+	function scrolloff(){
+		var x=window.scrollX;
+   		var y=window.scrollY;
+    	window.onscroll=function(){window.scrollTo(x, y);};		
+	;}
+	function scrollon(){
+		window.onscroll=function(){};
+	}
+</script>
+
+</body>
+
+</html>

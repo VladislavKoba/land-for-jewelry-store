@@ -1,0 +1,101 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Украинские украшения с историей</title>
+	<meta charset=utf-8>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="./css/style.css">
+	<link href="./css/flickerplate.css" rel="stylesheet" />
+	<link href="./css/lightbox.css" rel="stylesheet" />
+	<link href="./css/reveal.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+</head>
+
+<body>
+
+<div class="top_container">
+	<div class="container">
+		<div class="logo_container">
+			<a href=""><img src="./images/logo.png" alt="" /></a>
+		</div>
+		
+	</div>
+</div>
+	
+<header id="header">
+	<div class="container">
+		<div class="header_container">
+			<div class="header_box_left">
+				<h1>ВАША ЗАЯВКА успешно отпрвлена менеджеру</h1>
+				
+			</div>
+			
+		</div>
+	</div>
+</header>
+
+<div id="zakaz" class="reveal-modal">
+<div>
+<div class="forma_popap">
+	<h3><span>Оставьте заявку</span> на сайте <br>и получите бесплатную <br>консультацию стилиста</h3>
+	<form action="mail.php" method="post" id="contact_form3">
+		<input type="hidden" name="project_name" value="Украинские украшения с историей">
+		<input type="hidden" name="admin_email" value="mail@gmail.com">
+		<input type="hidden" name="form_subject" value="Заявка з сайта Украинские украшения с историей">	
+		<input type="text" value="" required placeholder="Ваше имя" size="20" name="name" id="FullName3">
+		<input type="text" required class="telephone_m" value="" placeholder="Ваш телефон" size="20" name="phone" id="Telephone3">
+		<button type="submit">Оставить заявку</button>
+	</form>
+</div>
+</div>
+	<a class="close-reveal-modal">×</a>
+</div>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="./js/jquery.reveal.js"></script>
+
+<script src="./js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'showImageNumberLabel': false
+    })
+	
+$('.menu_top a[href^="#"]').click(function(){
+var target = $(this).attr('href');
+  $('html, body').animate({scrollTop: $(target).offset().top-55}, 800);
+  return false;
+});
+
+jQuery(document).ready(function(){
+ 
+    var touch = jQuery('#touch-menu');
+    var menu = jQuery('.menu_top');
+ 
+    jQuery(touch).click(function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+    jQuery(window).resize(function(){
+        var w = jQuery(window).width();
+        if(w > 760 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+ 
+});
+
+$(".menu_top ul li > a").click(function(){
+if ($(window).width() < 768) {
+  $(".menu_top").hide();
+        return false;
+	}
+});
+</script>
+
+</body>
+
+</html>
