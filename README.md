@@ -1,2 +1,2 @@
 # ukrasheniya
-landing
+landing for jewelry store
